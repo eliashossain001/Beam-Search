@@ -3,7 +3,4 @@ This repository contains time-step wise word/phoneme predictions (n-best sequenc
 
 # File description
 
-> n_best_sequence.py: This file is all about finding n best sequence in each time step. The data has been used as a proof of concept. <br>
-> n_best_token.py: Finding n-best word token in every time step on top of beam search decoding algorithm. <br>
-> n_best_token_lp.py: This file uses length penalty concepts, which are significant and are an important part of the beam search algorithm. <br>
-> greedy_token.py: This file applies the concepts of greedy search decoding algorithm for the purpose of comparative analysis. <br>
+Four files, including n best sequence.py, n best token.py, n best token lp.py, and greedy token.py, can be found in this repository. The first file is called n best sequence.py, and it is used to find the n best sequences for each time step. The information has served as proof of concept. The second program is n best token.py, which uses the beam search decoding algorithm to get the n-best word token at each time step. Lastly, the length penalty concepts used in n best token lp.py are vital and a crucial component of the beam search process. In conclusion, greedy token.py uses the greedy search decoding algorithm's principles in order to do comparative analysis.
